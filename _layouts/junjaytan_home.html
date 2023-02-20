@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Junjay Tan's personal website" />
+  <meta name="keywords" content="junjay, junjay tan" />
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <title>Junjay Tan</title>
+
+  <!-- Framework CSS -->
+  <link rel="stylesheet" href="assets/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="assets/css/blueprint/print.css" type="text/css" media="print" />
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+
+  <!-- Import fancy-type plugin. -->
+  <link rel="stylesheet" href="assets/css/blueprint/plugins/fancy-type/screen.css" type="text/css"
+    media="screen, projection" />
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div class="container">
+
+    <div class="span-6 prepend-6 last">
+      <h1>Junjay Tan</h1>
+    </div>
+
+    <div class="span-6 prepend-6">
+      <p></p>
+      <hr />
+      <h4><a href="http://www.linkedin.com/in/junjaytan" class="h3">LinkedIn</a></h4>
+      <p></p>
+      <hr />
+      <h4><a href="./blog/" class="h3">Blog</a></h4>
+      <p></p>
+      <hr />
+      <p></p>
+      <a class="github-button" href="https://github.com/junjaytan" aria-label="GitHub"></a>
+    </div>
+
+    <div class="span-6 prepend-2 last">
+      <img src="assets/images/junjay-tan.jpg" alt="junjaytan" />
+      ©
+      <script>document.write(new Date().getFullYear())</script> Junjay Tan
+    </div>
+
+  </div>
+</body>
+
+</html>
