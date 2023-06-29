@@ -42,8 +42,8 @@ permalink: /blog/:title.html
 #header_pages:
 # - about.html
 
-# Analytics
-google_analytics: 'UA-26072842-1'
+# Google Analytics 4
+google_analytics: 'G-QZNXNGN7YC'
 
 # Commenting
 disqus:
